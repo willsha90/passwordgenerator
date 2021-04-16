@@ -2,10 +2,10 @@
 var generateBtn = document.querySelector("#generate");
 var password = ""
 var letterPool = []
-const UPPERCASE_LETTERS = ["A", "B", "C", "D"]
-const LOWERCASE_LETTERS = ["a", "b", "c", "d"]
-const NUMBERS = ["0", "1", "2", "3"]
-const SPECIAL_CHARS = ["!", "@", "#", "%"]
+const UPPERCASE_LETTERS = ["A", "B", "C", "D", "E", "F", "G", "H", "I","J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X","Y","Z"]
+const LOWERCASE_LETTERS = ["a", "b", "c", "d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+const NUMBERS = ["0", "1", "2", "3","4","5","6","7","8","9"]
+const SPECIAL_CHARS = ["!", "@", "#", "%","^","&","*","(",")","+","="]
 // starting data
 // user chooses some stuff
 // - how long do you want the password to be? (length number)
